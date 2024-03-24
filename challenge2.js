@@ -10,6 +10,6 @@ function speedDetector(speed) {
     //checks for above 12 demerit points
     if (demeritPoints > 12) {
       return "License suspended";
-    } else return `Demerit points: ${demeritPoints}`;
+    } else return `Demerit points: ${demeritPoints}`; //returns points for 12 demerit points and below
   } else return "OK";
 }
