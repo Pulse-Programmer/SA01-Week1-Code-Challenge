@@ -2,6 +2,7 @@ function gradeGenerator(marks) {
   let grade;
 
   if (typeof marks === "number") {
+    //Checks for the appropriate range to allocate appropriate grade
     switch (true) {
       case marks >= 0 && marks < 40:
         grade = "E";
@@ -19,10 +20,8 @@ function gradeGenerator(marks) {
         grade = "A";
         break;
       default:
-        return "Please enter number between 0 and 100!";
+        return "Please enter number between 0 and 100!"; //returns when all cases are bypassed meaning input is outside required range.
     }
     return grade;
-  } else return "Please enter a number!";
+  } else return "Please enter a number!"; //returns if input data type is not number.
 }
-
-//console.log(gradeGenerator(80));
