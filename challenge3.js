@@ -90,4 +90,4 @@ function netSalaryCalculator(basicSalary, benefits) {
   return `Net salary: Kes ${netSalary}`;
 }
 
-// console.log(netSalaryCalculator(100000, 3000));   //test code
+console.log(netSalaryCalculator(100000, 30000)); //test code (input basic salary and benefits as arguments)

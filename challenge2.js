@@ -13,3 +13,5 @@ function speedDetector(speed) {
     } else return `Demerit points: ${demeritPoints}`; //returns points for 12 demerit points and below
   } else return "OK";
 }
+
+console.log(speedDetector(80)); //test code (input speed as argument)

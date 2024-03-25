@@ -23,5 +23,7 @@ function gradeGenerator(marks) {
         return "Please enter number between 0 and 100!"; //returns when all cases are bypassed meaning input is outside required range.
     }
     return grade;
-  } else return "Please enter a number!"; //returns if input data type is not number.
+  } else return "Please enter a number (marks)!"; //returns if input data type is not number.
 }
+
+console.log(gradeGenerator(65)); //test code (input marks as argument)
